@@ -54,7 +54,29 @@ A:
 
 ref: [leetcode 125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
 
+## 04 Caesar Cipher
+Q:
+We have a string of lowercase letters, and an integer number.
+Each letter in the string is 'shifted' a certain number of places down the alphabet.
 
+Example 1:
+```
+Input: string = 'Zoo keeper', shift = 2
+Output: 'Bqq mggrgt'
+```
+
+Example 2:
+```
+Input: string = 'Zoo keeper', shift = -1
+Output: 'Ynn jddodq'
+```
+
+A:
+[Answer](04_caesarCipher.js)
+
+[ASCII Code 解法參考](https://pjchender.blogspot.com/2017/09/caesar-cipher.html)
+
+ref: [leetcode 848. Shifting Letters](https://leetcode.com/problems/shifting-letters/)
 
 ref:
 - [Learning algorithms in javascript from scratch](https://www.udemy.com/learning-algorithms-in-javascript-from-scratch/)
