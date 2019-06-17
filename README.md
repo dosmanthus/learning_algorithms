@@ -78,5 +78,32 @@ A:
 
 ref: [leetcode 848. Shifting Letters](https://leetcode.com/problems/shifting-letters/)
 
+## 05 Reverse Words
+Q:
+Given a string, you need to reverse the order of characters in each word within a sentence while still preserving whitespace and initial word order.
+
+Example 1:
+```
+Input: "Let's take LeetCode contest"
+Output: "s'teL ekat edoCteeL tsetnoc"
+```
+
+Note: In the string, each word is separated by single space and there will not be any extra space in the string.
+
+A:
+[Answer](05_reverseWords.js)
+
+ref: [557. Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/)
+
+## 06 Reverse Array in Place
+
+- Be sure to manipulate the array passed in
+- Do NOT push elements into a new array and return that array
+- Do not use array.reverse() method
+
+A:
+[Answer](06_reverseArrayInPlace.js)
+
+
 ref:
 - [Learning algorithms in javascript from scratch](https://www.udemy.com/learning-algorithms-in-javascript-from-scratch/)
