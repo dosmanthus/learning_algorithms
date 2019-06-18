@@ -104,6 +104,25 @@ ref: [557. Reverse Words in a String III](https://leetcode.com/problems/reverse-
 A:
 [Answer](06_reverseArrayInPlace.js)
 
+## 07 Mean Median Mode
+
+Q:
+return mean, median and mode value of an array, as an object has 3 properties on it.
+
+Example:
+```
+{
+  mean: 'the_mean_val',
+  median: 'the_median_val',
+  mode: 'the_mode_val(s)'
+}
+```
+
+A:
+[Answer](07_meanMedianMode.js)
+
+
+
 
 ref:
 - [Learning algorithms in javascript from scratch](https://www.udemy.com/learning-algorithms-in-javascript-from-scratch/)
