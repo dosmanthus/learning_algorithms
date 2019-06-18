@@ -96,7 +96,7 @@ A:
 ref: [557. Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/)
 
 ## 06 Reverse Array in Place
-
+Q:
 - Be sure to manipulate the array passed in
 - Do NOT push elements into a new array and return that array
 - Do not use array.reverse() method
@@ -105,7 +105,6 @@ A:
 [Answer](06_reverseArrayInPlace.js)
 
 ## 07 Mean Median Mode
-
 Q:
 return mean, median and mode value of an array, as an object has 3 properties on it.
 
@@ -121,8 +120,26 @@ Example:
 A:
 [Answer](07_meanMedianMode.js)
 
+## Two Sum
+Q:
+Returns every pair of numbers from array, that adds up to the sum.
+- Result should be an array of arrays
+- Any number in the numArray can be used in multiple pairs
+- Should be done in O(n) time complexity
+
+Example 1:
+```
+numArray = [1, 6, 4, 5, 3, 3],
+sum = 7
+
+result = [[6, 1], [3, 4],[3, 4]]
+```
+
+A:
+[Answer](08_twoSum.js)
+
+ref: [leetcode 1. Two Sum](https://leetcode.com/problems/two-sum/)
 
 
-
-ref:
+來源:
 - [Learning algorithms in javascript from scratch](https://www.udemy.com/learning-algorithms-in-javascript-from-scratch/)
