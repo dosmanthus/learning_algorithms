@@ -120,7 +120,7 @@ Example:
 A:
 [Answer](07_meanMedianMode.js)
 
-## Two Sum
+## 08 Two Sum
 Q:
 Returns every pair of numbers from array, that adds up to the sum.
 - Result should be an array of arrays
@@ -139,6 +139,17 @@ A:
 [Answer](08_twoSum.js)
 
 ref: [leetcode 1. Two Sum](https://leetcode.com/problems/two-sum/)
+
+## 09 Binary Search
+Q:
+- Search for a given value(key) inside of an ascending order sorted list(numArray)
+- Runs in O(log n) run time - very performant
+- Can be written as a resursive function
+
+A:
+[Answer](09_binarySearch.js)
+
+ref: [leetcode 704. Binary Search](https://leetcode.com/problems/binary-search/)
 
 
 來源:
