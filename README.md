@@ -151,6 +151,67 @@ A:
 
 ref: [leetcode 704. Binary Search](https://leetcode.com/problems/binary-search/)
 
+## 10 Fibonacci
+Q:
+The Fibonacci numbers, commonly denoted F(n) form a sequence, called the Fibonacci sequence, such that each number is the sum of the two preceding ones, starting from 0 and 1. That is,
+
+F(0) = 0,   F(1) = 1
+F(N) = F(N - 1) + F(N - 2), for N > 1.
+Given N, calculate F(N).
+
+Example 1:
+```
+Input: 2
+Output: 1
+Explanation: F(2) = F(1) + F(0) = 1 + 0 = 1.
+```
+
+Example 2:
+```
+Input: 3
+Output: 2
+Explanation: F(3) = F(2) + F(1) = 1 + 1 = 2.
+```
+
+Example 3:
+```
+Input: 4
+Output: 3
+Explanation: F(4) = F(3) + F(2) = 2 + 1 = 3.
+```
+
+A:
+[Answer](10_fibonacci.js)
+
+## 11 Memoized Fibonacci
+Q:
+[10 fabonacci](10_fabonacci.js)的Runtime是O(2^n)，需要重複計算前1, 2位的數值，也就是說當 position 輸入的數值越大時，運算的時間會呈指數(爆炸性的)成長。可以搭配Memoization提高效能，runtime會是O(n),因爲計算過的數值都被cache住了，只需計算一次。
+
+- Check to see if number already exists in cache
+- If number is in cache, use that number
+- If number is not in cache, calculate tin and put it in cache so it can be used multiple times in future
+
+A:
+[Answer](11_memoizedFibonacci.js)
+
+ref: [leetcode 509. Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)
+
+## 12 Sieve of Eratosthenes
+埃拉托斯特尼篩法（希臘語：κόσκινον Ἐρατοσθένους，英語：sieve of Eratosthenes ），簡稱埃氏篩，也稱質數篩。
+Q:
+Count the number of prime numbers less than a non-negative number, n.
+
+Example:
+```
+Input: 10
+Output: 4
+Explanation: There are 4 prime numbers less than 10, they are 2, 3, 5, 7.
+```
+
+A:
+[Answer](12_sieveOfEratosthenes.js)
+
+ref: [leetcode 204. Count Primes](https://leetcode.com/problems/count-primes/)
 
 來源:
 - [Learning algorithms in javascript from scratch](https://www.udemy.com/learning-algorithms-in-javascript-from-scratch/)
