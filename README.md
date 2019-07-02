@@ -213,5 +213,21 @@ A:
 
 ref: [leetcode 204. Count Primes](https://leetcode.com/problems/count-primes/)
 
+
+## 13 Bubble Sort
+Q:
+Bubble sort 的方式是將陣列兩兩相鄰的元素互相比較，大的移到後面。例如有6個元素的陣列，重複5次(Array.length - 1)這個動作之後，最大的數會像氣泡一樣跑到最右邊。然後，再進行第2輪排序，這次只需排序到5個元素(index 0~4)，以此類推...直到整列完全排序完。
+
+A:
+[Answer](13_bubbleSort.js)
+
+## 14 Merge Sort
+Q:
+Merge sort的方式是將整列對半拆分，然後再加以合併。合併的方式是以取2個整列的第一個元素進行比較，小的放前面。
+
+A:
+[Answer](14_mergeSort.js)
+
+
 來源:
 - [Learning algorithms in javascript from scratch](https://www.udemy.com/learning-algorithms-in-javascript-from-scratch/)
