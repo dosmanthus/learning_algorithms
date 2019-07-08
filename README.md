@@ -228,6 +228,20 @@ Merge sort的方式是將整列對半拆分，然後再加以合併。合併的�
 A:
 [Answer](14_mergeSort.js)
 
+## 15 Max Stock Profit
+Q:
+Build a function it takes in array of proces as parameter, returns the max possible profit of the day.
+
+Notes:
+- If no profit is possible, return -1
+- A max profit of 0 is treated as any other max profit value.
+
+A:
+[Answer](15_maxStockProfit.js)
+
+
+ref: [leetcode 121 Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+
 
 來源:
 - [Learning algorithms in javascript from scratch](https://www.udemy.com/learning-algorithms-in-javascript-from-scratch/)
